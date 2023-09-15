@@ -8,6 +8,42 @@
 <body>
     
     <script>
+        //exercise 1
+        function add7(num){
+            return num + 7
+        };
+
+        console.log(add7(3))
+
+        //exercise 2
+        function multiply(a, b) {
+            return a * b
+        }
+
+        console.log(multiply(2,3))
+
+        //exercise 3
+        function capitalize(text) {
+            const lowerCaseString = text.toLowerCase();
+            const capitalizedString = lowerCaseString.charAt(0).toUpperCase() + lowerCaseString.slice(1);
+            return capitalizedString
+        }
+
+        let randomText1 = "alsdf ASEF SertaGFGE"
+        console.log(capitalize(randomText1))
+        let randomText2 = "EZ MINDEN NAGY"
+        console.log(capitalize(randomText2))
+        let randomText3 = "itt meg minden kicsi"
+        console.log(capitalize(randomText3))
+
+        //exercise 3
+        function lastLetter(randomString) {
+            return randomString.charAt(randomString.length-1)
+        }
+
+        console.log(lastLetter("abcde"))
+        console.log(lastLetter("pijaergpdfpnkkapnkfgüojasüjgkaömg"))
+        console.log(lastLetter("12345"))
 
         
     </script>
